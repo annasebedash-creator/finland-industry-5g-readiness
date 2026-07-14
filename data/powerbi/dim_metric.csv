@@ -1,0 +1,11 @@
+metric_id,metric_code,name,axis,unit,weight
+1,icte22,Uses AI technologies,AI & 5G readiness,% of enterprises,0.2
+2,icte29,Autonomous robots / vehicles / drones,AI & 5G readiness,% of enterprises,0.2
+3,icte38,Uses IoT smart-device / sensor data,AI & 5G readiness,% of enterprises,0.18
+4,icte28,AI-based process automation (RPA),AI & 5G readiness,% of enterprises,0.14
+5,icte27,Machine learning for data analysis,AI & 5G readiness,% of enterprises,0.1
+6,icte11,Uses cloud services,AI & 5G readiness,% of enterprises,0.1
+7,icte02,≥100 Mbps broadband connection,AI & 5G readiness,% of enterprises,0.08
+8,yri_Liikevaihto,"Turnover (€1,000)",Market attractiveness,"€1,000",0.5
+9,yri_Henkmaara,Personnel (staff-years),Market attractiveness,staff-years,0.3
+10,yri_Yritysten_Lukumaara,Number of enterprises,Market attractiveness,enterprises,0.2

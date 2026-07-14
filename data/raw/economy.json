@@ -1,0 +1,207 @@
+{
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Enterprises by industry (enterprise unit) by Year, TOL 2008 and Information",
+  "source": "Statistics Finland, structural business and financial statement statistics",
+  "updated": "2025-12-19T06:00:00Z",
+  "note": [
+    "<A HREF='https://stat.fi/en/statistics/documentation/yrti' TARGET=_blank>Documentation of statistics</A>",
+    ".. not applicable\r\n... confidential"
+  ],
+  "role": {
+    "time": [
+      "timeperiod_y"
+    ],
+    "metric": [
+      "contentscode"
+    ]
+  },
+  "id": [
+    "timeperiod_y",
+    "toimiala_79_20180101",
+    "contentscode"
+  ],
+  "size": [
+    1,
+    13,
+    3
+  ],
+  "dimension": {
+    "timeperiod_y": {
+      "label": "Year",
+      "category": {
+        "index": {
+          "2024": 0
+        },
+        "label": {
+          "2024": "2024"
+        }
+      },
+      "extension": {
+        "elimination": false,
+        "show": "value"
+      },
+      "link": {
+        "describedby": [
+          {
+            "extension": {
+              "timeperiod_y": "SCALE-TYPE=None"
+            }
+          }
+        ]
+      }
+    },
+    "toimiala_79_20180101": {
+      "label": "TOL 2008",
+      "category": {
+        "index": {
+          "C": 0,
+          "D": 1,
+          "E": 2,
+          "F": 3,
+          "G45": 4,
+          "G46": 5,
+          "G47": 6,
+          "H": 7,
+          "I": 8,
+          "J": 9,
+          "L": 10,
+          "M": 11,
+          "N": 12
+        },
+        "label": {
+          "C": "C Manufacturing (10-33)",
+          "D": "D Electricity,  gas, steam and air conditioning supply (35)",
+          "E": "E Water supply; sewerage, waste management and remediation activities (36-39)",
+          "F": "F Construction (41-43)",
+          "G45": "45 Wholesale and retail trade and repair of motor vehicles and motorcycles",
+          "G46": "46 Wholesale trade, except of motor vehicles and motorcycles",
+          "G47": "47 Retail trade, except of motor vehicles and motorcycles",
+          "H": "H Transportation and storage (49-53)",
+          "I": "I Accommodation and food service activities (55-56)",
+          "J": "J Information and communication (58-63)",
+          "L": "L Real estate activities (68)",
+          "M": "M Professional, scientific and technical activities (69-75)",
+          "N": "N Administrative and support service activities (77-82)"
+        }
+      },
+      "extension": {
+        "elimination": false,
+        "show": "value"
+      },
+      "link": {
+        "describedby": [
+          {
+            "extension": {
+              "toimiala_79_20180101": "SCALE-TYPE=nominal"
+            }
+          }
+        ]
+      }
+    },
+    "contentscode": {
+      "label": "Information",
+      "category": {
+        "index": {
+          "yri_Yritysten_Lukumaara": 0,
+          "yri_Liikevaihto": 1,
+          "yri_Henkmaara": 2
+        },
+        "label": {
+          "yri_Yritysten_Lukumaara": "Number of enterprises, enterprises",
+          "yri_Liikevaihto": "Turnover, enterprises (1000 euro)",
+          "yri_Henkmaara": "Number of personnel (staff year), enterprises"
+        },
+        "note": {
+          "yri_Liikevaihto": [
+            "Liikevaihto koostuu yrityksen varsinaiseen toimintaan kuuluvien tuotteiden ja palvelujen myyntituotoista,  joista on vähennetty annetut alennukset, arvonlisävero ja muut välittömästi myynnin määrään perustuvat verot."
+          ]
+        },
+        "unit": {
+          "yri_Yritysten_Lukumaara": {
+            "decimals": 0
+          },
+          "yri_Liikevaihto": {
+            "base": "EUR thousand",
+            "decimals": 0
+          },
+          "yri_Henkmaara": {
+            "decimals": 0
+          }
+        }
+      },
+      "extension": {
+        "elimination": false,
+        "show": "value"
+      }
+    }
+  },
+  "extension": {
+    "px": {
+      "tableid": "13vy",
+      "decimals": 0,
+      "official-statistics": true,
+      "aggregallowed": true,
+      "language": "fi",
+      "contents": "Enterprises by industry (enterprise unit)",
+      "description": "13vy -- Enterprises by industry (enterprise unit), 2018-2024",
+      "descriptiondefault": false,
+      "heading": [
+        "contentscode"
+      ],
+      "stub": [
+        "timeperiod_y",
+        "toimiala_79_20180101"
+      ],
+      "matrix": "13vy",
+      "subject-code": "yrti",
+      "subject-area": "Structural business and financial statement statistics"
+    },
+    "contact": [
+      {
+        "raw": "<A HREF='https://stat.fi/en/statistics/yrti' TARGET=_blank>Statistics' homepage</A>"
+      }
+    ]
+  },
+  "value": [
+    29230,
+    155139543,
+    305584,
+    1728,
+    20738017,
+    13673,
+    2410,
+    4442117,
+    12300,
+    57350,
+    41043043,
+    146452,
+    13485,
+    22640609,
+    40311,
+    15516,
+    68160549,
+    76637,
+    25343,
+    45006602,
+    106944,
+    27738,
+    25901135,
+    111728,
+    16878,
+    8919140,
+    58178,
+    22474,
+    29166904,
+    103167,
+    44049,
+    14957355,
+    19466,
+    73174,
+    20557776,
+    113516,
+    27746,
+    15455743,
+    135408
+  ]
+}

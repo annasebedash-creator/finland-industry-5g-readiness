@@ -1,0 +1,10 @@
+sector_id,code,name,short,industrial
+1,CTE,Manufacturing; energy & utilities (C–E),Manufacturing & Energy,1
+2,H,Transportation and storage (H),Transport & Storage,1
+3,F41TF43,Construction (F),Construction,1
+4,G45_G46,Wholesale & motor-vehicle trade (45–46),Wholesale & Vehicle Trade,0
+5,G47,Retail trade (47),Retail,0
+6,I55_I56,Accommodation and food service (I),Accommodation & Food,0
+7,J,Information and communication (J),Information & Communication,0
+8,M,"Professional, scientific & technical (M)",Professional & Technical,0
+9,L_N_S951,"Real estate, admin & support services (L, N, S951)",Real Estate & Admin,0

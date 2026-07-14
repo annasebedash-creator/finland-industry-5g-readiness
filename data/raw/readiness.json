@@ -1,0 +1,374 @@
+{
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Use of information technology in enterprises by Year, Industry and Information",
+  "source": "Statistics Finland, use of information technology in enterprises",
+  "updated": "2025-11-27T06:00:00Z",
+  "note": [
+    "<A HREF='https://stat.fi/en/statistics/documentation/icte' TARGET=_blank>Documentation of statistics</A>",
+    ". missing"
+  ],
+  "role": {
+    "time": [
+      "timeperiod_y"
+    ],
+    "metric": [
+      "contentscode"
+    ]
+  },
+  "id": [
+    "timeperiod_y",
+    "toimiala_79_20180101",
+    "contentscode"
+  ],
+  "size": [
+    3,
+    9,
+    7
+  ],
+  "dimension": {
+    "timeperiod_y": {
+      "label": "Year",
+      "category": {
+        "index": {
+          "2023": 0,
+          "2024": 1,
+          "2025": 2
+        },
+        "label": {
+          "2023": "2023",
+          "2024": "2024",
+          "2025": "2025"
+        }
+      },
+      "extension": {
+        "elimination": false,
+        "show": "value"
+      },
+      "link": {
+        "describedby": [
+          {
+            "extension": {
+              "timeperiod_y": "SCALE-TYPE=None"
+            }
+          }
+        ]
+      }
+    },
+    "toimiala_79_20180101": {
+      "label": "Industry",
+      "category": {
+        "index": {
+          "CTE": 0,
+          "F41TF43": 1,
+          "G45_G46": 2,
+          "G47": 3,
+          "H": 4,
+          "I55_I56": 5,
+          "J": 6,
+          "L_N_S951": 7,
+          "M": 8
+        },
+        "label": {
+          "CTE": "C-E Manufacturing; electricity, gas, steam and air conditioning and water supply; sewerage and waste management (10-39)",
+          "F41TF43": "41-43 Construction",
+          "G45_G46": "45-46 Wholesale and sale of motor vehicles",
+          "G47": "47 Retail trade, except of motor vehicles and motorcycles",
+          "H": "H Transportation and storage (49-53)",
+          "I55_I56": "55, 56 Accommodation and food service activities",
+          "J": "J Information and communication (58-63)",
+          "L_N_S951": "L, N, S951 Real estate activities, administrative and support service activities and repair of computers and communication equipment",
+          "M": "M Professional, scientific and technical activities (69-75)"
+        }
+      },
+      "extension": {
+        "elimination": false,
+        "show": "value"
+      },
+      "link": {
+        "describedby": [
+          {
+            "extension": {
+              "toimiala_79_20180101": "SCALE-TYPE=nominal"
+            }
+          }
+        ]
+      }
+    },
+    "contentscode": {
+      "label": "Information",
+      "category": {
+        "index": {
+          "icte02": 0,
+          "icte11": 1,
+          "icte22": 2,
+          "icte27": 3,
+          "icte28": 4,
+          "icte29": 5,
+          "icte38": 6
+        },
+        "label": {
+          "icte02": "At least 100 Mbps broadband connection, % of enterprises",
+          "icte11": "Use cloud services, % of enterprises",
+          "icte22": "The enterprise uses Artificial Intelligence (AI) technologies, % of enterprises",
+          "icte27": "Machine learning for data analysis, % of enterprises",
+          "icte28": "AI technologies automating workflows or assisting in decision-making (AI-based software robotic process automation), % of enterprises",
+          "icte29": "AI technologies enabling physical movement of machines via autonomous decisions based on observation of surroundings (autonomous robots, self-driving vehicles, autonomous drones), % of enterprises",
+          "icte38": "Data analytics data: data from smart devices or sensors (by own personnel), % of enterprises"
+        },
+        "unit": {
+          "icte02": {
+            "base": "per cent",
+            "decimals": 0
+          },
+          "icte11": {
+            "base": "per cent",
+            "decimals": 0
+          },
+          "icte22": {
+            "base": "per cent",
+            "decimals": 0
+          },
+          "icte27": {
+            "base": "per cent",
+            "decimals": 0
+          },
+          "icte28": {
+            "base": "per cent",
+            "decimals": 0
+          },
+          "icte29": {
+            "base": "per cent",
+            "decimals": 0
+          },
+          "icte38": {
+            "base": "per cent",
+            "decimals": 0
+          }
+        }
+      },
+      "extension": {
+        "elimination": false,
+        "show": "value"
+      }
+    }
+  },
+  "extension": {
+    "px": {
+      "tableid": "14yc",
+      "decimals": 0,
+      "official-statistics": true,
+      "aggregallowed": true,
+      "language": "fi",
+      "contents": "Use of information technology in enterprises",
+      "description": "14yc -- Use of information technology in enterprises, 2021-2025",
+      "descriptiondefault": false,
+      "heading": [
+        "contentscode"
+      ],
+      "stub": [
+        "timeperiod_y",
+        "toimiala_79_20180101"
+      ],
+      "matrix": "14yc",
+      "subject-code": "icte",
+      "subject-area": "Use of information technology in enterprises"
+    },
+    "contact": [
+      {
+        "raw": "<A HREF='https://stat.fi/en/statistics/icte' TARGET=_blank>Statistics' homepage</A>"
+      }
+    ]
+  },
+  "value": [
+    75,
+    88,
+    14,
+    5,
+    9,
+    2,
+    14,
+    67,
+    78,
+    5,
+    1,
+    2,
+    0,
+    5,
+    82,
+    84,
+    14,
+    3,
+    8,
+    1,
+    7,
+    71,
+    41,
+    8,
+    2,
+    4,
+    2,
+    4,
+    74,
+    63,
+    8,
+    3,
+    5,
+    2,
+    7,
+    75,
+    59,
+    2,
+    0,
+    1,
+    0,
+    3,
+    96,
+    98,
+    48,
+    30,
+    24,
+    7,
+    17,
+    73,
+    86,
+    15,
+    9,
+    12,
+    1,
+    8,
+    81,
+    91,
+    32,
+    14,
+    17,
+    3,
+    7,
+    83,
+    89,
+    22,
+    7,
+    8,
+    3,
+    18,
+    81,
+    81,
+    11,
+    3,
+    6,
+    1,
+    7,
+    83,
+    86,
+    27,
+    10,
+    9,
+    3,
+    10,
+    69,
+    60,
+    17,
+    5,
+    5,
+    2,
+    6,
+    74,
+    66,
+    7,
+    3,
+    4,
+    1,
+    6,
+    67,
+    59,
+    11,
+    2,
+    3,
+    1,
+    7,
+    95,
+    97,
+    66,
+    39,
+    34,
+    5,
+    12,
+    80,
+    88,
+    26,
+    10,
+    14,
+    2,
+    8,
+    89,
+    91,
+    48,
+    19,
+    21,
+    5,
+    9,
+    84,
+    89,
+    34,
+    10,
+    12,
+    3,
+    17,
+    82,
+    79,
+    24,
+    6,
+    5,
+    1,
+    4,
+    87,
+    80,
+    42,
+    10,
+    16,
+    3,
+    10,
+    77,
+    55,
+    27,
+    8,
+    11,
+    3,
+    7,
+    79,
+    67,
+    13,
+    4,
+    7,
+    1,
+    7,
+    84,
+    63,
+    24,
+    2,
+    7,
+    1,
+    2,
+    92,
+    97,
+    80,
+    42,
+    42,
+    9,
+    13,
+    88,
+    78,
+    40,
+    13,
+    18,
+    3,
+    8,
+    93,
+    94,
+    75,
+    34,
+    32,
+    4,
+    8
+  ]
+}

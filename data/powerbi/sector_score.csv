@@ -1,0 +1,10 @@
+sector_id,attractiveness,readiness,combined,priority,rank
+1,85.9,45.5,65.7,Lead — go-to-market now,1
+7,12.8,94.7,53.8,Selective — quick wins,2
+8,29.5,68.7,49.1,Selective — quick wins,3
+9,36.4,38.9,37.6,Lead — go-to-market now,4
+4,34.6,40.4,37.5,Lead — go-to-market now,5
+3,33.4,14.9,24.2,"Develop — high-value, needs enablement",6
+5,18.9,18.9,18.9,Monitor,7
+2,14.7,11.1,12.9,Monitor,8
+6,0.0,9.4,4.7,Monitor,9

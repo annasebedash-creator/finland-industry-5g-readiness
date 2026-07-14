@@ -1,0 +1,115 @@
+{
+  "attr_mid": 29.6,
+  "ready_mid": 38.1,
+  "economy_year": "2024",
+  "sectors": [
+    {
+      "sector_id": 1,
+      "code": "CTE",
+      "name": "Manufacturing; energy & utilities (C–E)",
+      "short": "Manufacturing & Energy",
+      "industrial": 1,
+      "attractiveness": 85.9,
+      "readiness": 45.5,
+      "combined": 65.7,
+      "priority": "Lead — go-to-market now",
+      "rank": 1
+    },
+    {
+      "sector_id": 7,
+      "code": "J",
+      "name": "Information and communication (J)",
+      "short": "Information & Communication",
+      "industrial": 0,
+      "attractiveness": 12.8,
+      "readiness": 94.7,
+      "combined": 53.8,
+      "priority": "Selective — quick wins",
+      "rank": 2
+    },
+    {
+      "sector_id": 8,
+      "code": "M",
+      "name": "Professional, scientific & technical (M)",
+      "short": "Professional & Technical",
+      "industrial": 0,
+      "attractiveness": 29.5,
+      "readiness": 68.7,
+      "combined": 49.1,
+      "priority": "Selective — quick wins",
+      "rank": 3
+    },
+    {
+      "sector_id": 9,
+      "code": "L_N_S951",
+      "name": "Real estate, admin & support services (L, N, S951)",
+      "short": "Real Estate & Admin",
+      "industrial": 0,
+      "attractiveness": 36.4,
+      "readiness": 38.9,
+      "combined": 37.6,
+      "priority": "Lead — go-to-market now",
+      "rank": 4
+    },
+    {
+      "sector_id": 4,
+      "code": "G45_G46",
+      "name": "Wholesale & motor-vehicle trade (45–46)",
+      "short": "Wholesale & Vehicle Trade",
+      "industrial": 0,
+      "attractiveness": 34.6,
+      "readiness": 40.4,
+      "combined": 37.5,
+      "priority": "Lead — go-to-market now",
+      "rank": 5
+    },
+    {
+      "sector_id": 3,
+      "code": "F41TF43",
+      "name": "Construction (F)",
+      "short": "Construction",
+      "industrial": 1,
+      "attractiveness": 33.4,
+      "readiness": 14.9,
+      "combined": 24.2,
+      "priority": "Develop — high-value, needs enablement",
+      "rank": 6
+    },
+    {
+      "sector_id": 5,
+      "code": "G47",
+      "name": "Retail trade (47)",
+      "short": "Retail",
+      "industrial": 0,
+      "attractiveness": 18.9,
+      "readiness": 18.9,
+      "combined": 18.9,
+      "priority": "Monitor",
+      "rank": 7
+    },
+    {
+      "sector_id": 2,
+      "code": "H",
+      "name": "Transportation and storage (H)",
+      "short": "Transport & Storage",
+      "industrial": 1,
+      "attractiveness": 14.7,
+      "readiness": 11.1,
+      "combined": 12.9,
+      "priority": "Monitor",
+      "rank": 8
+    },
+    {
+      "sector_id": 6,
+      "code": "I55_I56",
+      "name": "Accommodation and food service (I)",
+      "short": "Accommodation & Food",
+      "industrial": 0,
+      "attractiveness": 0.0,
+      "readiness": 9.4,
+      "combined": 4.7,
+      "priority": "Monitor",
+      "rank": 9
+    }
+  ]
+}

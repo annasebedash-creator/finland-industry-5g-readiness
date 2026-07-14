@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Keep data/ committed (small, reproducible) so the repo is self-contained.
+# Nothing secret here — StatFin is open data, no keys are stored.
