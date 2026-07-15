@@ -1,0 +1,10 @@
+Sector,Type,Attractiveness,Readiness,Combined,Rank,Priority
+Manufacturing & Energy,Industrial,85.9,45.5,65.7,1,Lead — go-to-market now
+Information & Communication,Other,12.8,94.7,53.8,2,Selective — quick wins
+Professional & Technical,Other,29.5,68.7,49.1,3,Selective — quick wins
+Real Estate & Admin,Other,36.4,38.9,37.6,4,Lead — go-to-market now
+Wholesale & Vehicle Trade,Other,34.6,40.4,37.5,5,Lead — go-to-market now
+Construction,Industrial,33.4,14.9,24.2,6,"Develop — high-value, needs enablement"
+Retail,Other,18.9,18.9,18.9,7,Monitor
+Transport & Storage,Industrial,14.7,11.1,12.9,8,Monitor
+Accommodation & Food,Other,0.0,9.4,4.7,9,Monitor
