@@ -28,6 +28,12 @@ The repo is public, so the report-ready table is already online — no file uplo
 
 4. **Publish:** **File → Embed report → Publish to web (public)** → copy the link into the
    README and the portfolio "Live Report" button.
+   > ⚠️ The Haaga-Helia tenant has **"Publish to web (public)" disabled** by admin policy
+   > (confirmed 15.7.2026 — the option is absent from the report File menu). So a public
+   > live-embed link is not available on that account. Options: (a) show a **screenshot**
+   > of the report as portfolio proof; (b) rebuild the dataset under a **personal**
+   > Microsoft account, where Publish to web is usually allowed; (c) export to PDF/PPT
+   > via **File → Export** for a static shareable copy.
 
 > This one flat table needs no relationships or DAX. For the fuller 4-page model
 > (all readiness indicators, in-model DAX composites), use the four CSVs and the
