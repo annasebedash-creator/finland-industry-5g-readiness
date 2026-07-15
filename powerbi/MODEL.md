@@ -3,6 +3,36 @@
 Build the report from the CSVs in `data/powerbi/` using **Power BI Service in the
 browser** (works on Mac — sign in with the Haaga-Helia Microsoft account).
 
+## Fastest build (≈15 min, from the hosted CSV)
+
+The repo is public, so the report-ready table is already online — no file upload needed.
+
+1. **New report → Add data → CSV → "Link to file".** Paste this URL, leave
+   Authentication = **Anonymous**, then **Next → Create**:
+   ```
+   https://raw.githubusercontent.com/annasebedash-creator/finland-industry-5g-readiness/main/data/powerbi/report_sectors.csv
+   ```
+   Columns: `Sector, Type, Attractiveness, Readiness, Combined, Rank, Priority`
+   (Type = Industrial / Other; the composites and priority quadrant are pre-computed.)
+
+2. **Three visuals on the canvas:**
+   - **Priority matrix (scatter):** Visualizations → *Scatter chart*.
+     X = **Readiness**, Y = **Attractiveness**, Legend = **Type**, Size = **Combined**,
+     Values/Details = **Sector**. → the 2×2 matrix, Manufacturing & Energy top-right.
+   - **Ranked table:** *Table* with **Rank, Sector, Attractiveness, Readiness, Priority**,
+     sorted ascending by Rank.
+   - **KPI card(s):** a *Card* on **Sector** filtered to `Rank = 1` (top target), and/or a
+     *Card* counting sectors where `Priority` starts with "Lead".
+
+3. **Title + save:** text box "Finnish Industry 5G & AI Readiness Index" → **File → Save**.
+
+4. **Publish:** **File → Embed report → Publish to web (public)** → copy the link into the
+   README and the portfolio "Live Report" button.
+
+> This one flat table needs no relationships or DAX. For the fuller 4-page model
+> (all readiness indicators, in-model DAX composites), use the four CSVs and the
+> steps below.
+
 ## Import & model
 
 1. Power BI Service → Workspace → **New → Semantic model** → upload the four CSVs:
