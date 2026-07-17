@@ -10,6 +10,11 @@ market-attractiveness assessment → segment prioritisation → recommendation.
 
 ![Priority matrix](assets/priority-matrix.svg)
 
+Delivered as an interactive **Power BI** report (Power BI Service) — priority-matrix scatter,
+ranked shortlist, and a top-target KPI card; DAX and model in [`powerbi/`](powerbi/):
+
+![Power BI report](assets/powerbi-report.png)
+
 ## The question & the answer
 
 Every Finnish enterprise sector is scored on two composites (0–100):
